@@ -1,9 +1,9 @@
 services:
-  - type: web
-    name: shruti-music
+  - type: worker
+    name: riya-broadcast-bot
     env: python
-    region: oregon
-    plan: free
+    region: Virginia (US East)
+    plan: hobby
     buildCommand: |
       apt-get update && apt-get install -y ffmpeg
       pip install -r requirements.txt
@@ -12,24 +12,24 @@ services:
 
     envVars:
       API_ID: 
-        value: 29448785
+        value: 24845544
       API_HASH: 
-        value: 599574f6aff0a09ebb76305b58e7e9c2
+        value: 57f32b90d5406552ab9156f6404fe5a8
       API_KEY:
         sync: false
       BOT_TOKEN:
         sync: false
       MONGO_DB_URI: 
-        value: mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION
+        value: mongodb+srv://SonuData:Sonu321@sonugamingop.r4oabeg.mongodb.net/?appName=SonuGamingOp
       OWNER_ID:
-        value: 7574330905
+        value: 5658759638
       OWNER_USERNAME:
-        value: WTF_WhyMeeh
+        value: RiyaRajput_69
       BOT_USERNAME:
-        value: ShrutixMusicBot
+        value: Riya_broadcast_bot
       UPSTREAM_REPO:
         value: https://github.com/NoxxOP/ShrutiMusic
-      STRING_SESSION:
+      STRING_SESSION: BQF7HOgAmwxzvZHGByEemXpL2FAhYGfqDf1M90dzHNN9nanab0p3zJyTHL4GAuIRYr79TGVesUEqyvkfgVhOy8WIgQIgbDCvlMicx9W9djiusmdWyar4MC-LbtNIdcvutvBDdsi5XOCiV91xT_DObU3GjDV5dmOSE_SdONQDy1eGJnczl8KM7uuE0wAYIDsuhzPMm14fUhT0spTXgY324Qv-inO5UBkjoD1xFqcc0uDvdiUwRg6WkfZCCqJwn0bUHVCtVHhhDnCpYGzy5yC5rLr6m6obVben_n9shvAdYyuW9HBiVxirew8eu9Z119AnyZO33RaROZRnndbv8riABjvbiVZIBAAAAAHjexyYAA
         sync: false
       GIT_TOKEN:
         sync: false
@@ -38,18 +38,18 @@ services:
       HEROKU_APP_NAME:
         sync: false
       LOG_GROUP_ID:
-        value: -1002321189618
+        value: -1003311004575
       SUPPORT_GROUP:
-        value: https://t.me/ShrutiBotsupport
+        value: https://t.me/hindi_punjabi_singing
       SUPPORT_CHANNEL:
-        value: https://t.me/ShrutiBots
+        value: https://t.me/hindi_punjabi_singing
       INSTAGRAM:
-        value: https://instagram.com/yaduwanshi_nand
+        value: 
       YOUTUBE:
-        value: https://youtube.com/@NandEditz
+        value: https://youtube.com/@sonugamingop?si=YwoVNpxCHn20DL-k
       GITHUB:
-        value: https://github.com/NoxxOP
+        value: 
       DONATE:
-        value: https://t.me/ShrutiBots/91
-      START_IMG_URL:
+        value: https://t.me/SonuCheatsOfficial/498
+      START_IMG_URL: https://i.ibb.co/ZpJmhrD1/IMG-20260126-215743-419.jpg
         sync: false
